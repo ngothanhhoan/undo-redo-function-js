@@ -3,9 +3,9 @@ class UndoStack {
         this.items = [];
     }
 
-    getContens() {
+    getContents() {
         let content =[];
-        for(let i in UndoStack.items) {
+        for(let i in this.items.items) {
             content.push(undoStack.items[i])
         }
         return content ;
